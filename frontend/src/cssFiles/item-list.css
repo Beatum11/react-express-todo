@@ -1,0 +1,10 @@
+.itemList-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.itemList-container ul{
+    list-style: none;
+}

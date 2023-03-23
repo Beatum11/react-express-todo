@@ -1,0 +1,41 @@
+.item-container{
+    max-width: 60%;
+    margin:  auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    border-style: none;
+    border-bottom: 1px solid rgba(0, 21, 255, 0.2);
+}
+
+.checkItem{
+    width: 15px;
+}
+
+.item-container h2{
+    margin-left: 1.25rem;
+}
+
+.item-container button{
+    margin-left: auto;
+    
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 30px;
+    background-color: #9147ff;
+    color: white;
+    padding: 0 20px;
+}
+
+.item-container button:hover {
+    background-color: #772ce8;
+}
+
+.crossed-out{
+    text-decoration: line-through;
+}
