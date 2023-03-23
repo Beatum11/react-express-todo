@@ -20,7 +20,7 @@ const CreateItem = () => {
 
 
     const postHandler = async () => {
-        await axios.post("http://localhost:8000/post", postTitle)
+        await axios.post("https://lacy-neon-nape.glitch.me/post", postTitle)
         .then((response) => {
             console.log(response);
           })

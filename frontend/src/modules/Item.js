@@ -20,7 +20,7 @@ const Item = ({title, id}) => {
   }
 
   const deleteHandler = async () => {
-      await axios.delete(`http://localhost:8000/get/${id}`)
+      await axios.delete(`https://lacy-neon-nape.glitch.me/get/${id}`)
       .then((res) => console.log(res));
   }
 

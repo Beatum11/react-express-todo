@@ -7,7 +7,7 @@ const ItemList = () => {
 
     const [titles, setTitles] = useState([]);
 
-      fetch('http://localhost:8000/get')
+      fetch('https://lacy-neon-nape.glitch.me/get')
       .then(response => response.json())
       .then(data => setTitles(data.titles))
       .catch(error => console.error(error));
